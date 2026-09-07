@@ -1,13 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Rishit Dutta — undergraduate researcher at IIT Kanpur working on multimodal and embodied AI." />
   <title>Rishit Dutta</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Rishit Dutta</h1>
-  <p>Electrical Engineering, IIT Kanpur</p>
-  <p>Research interests: AI, multimodal learning, vision-language models.</p>
+  <main class="page-shell">
+    <header class="site-header" id="about">
+      <div>
+        <p class="eyebrow">IIT Kanpur · Electrical Engineering</p>
+        <h1>Rishit Dutta</h1>
+        <p class="lead">
+          I am an undergraduate researcher at IIT Kanpur working on multimodal and embodied AI.
+          My current work spans vision-language navigation, discrete tokenization, and multimodal representation analysis.
+        </p>
+        <p class="research-line">
+          Interests: multimodal learning · vision-language models · embodied AI · tokenization · representation geometry
+        </p>
+        <nav class="header-links" aria-label="Primary links">
+          <a href="mailto:rishitad24@iitk.ac.in">Email</a>
+          <a href="https://github.com/rishitdutta14" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/rishit-dutta-0867581b7/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="cv.pdf" target="_blank" rel="noreferrer">CV</a>
+        </nav>
+      </div>
+      <img class="profile-photo" src="https://avatars.githubusercontent.com/u/96435244?v=4" alt="Rishit Dutta" />
+    </header>
+
+    <section class="section" id="research">
+      <div class="section-heading">
+        <h2>Research</h2>
+      </div>
+
+      <article class="publication">
+        <div>
+          <h3>FrameNav: Deciding, Remembering and Monitoring in the Camera Frame for Zero-Shot VLN-CE</h3>
+          <p class="authors"><strong>Rishit Dutta*</strong>, Toshith*, Tushar Sandhan</p>
+          <p class="description">
+            A zero-shot VLN-CE framework that keeps planning, memory, and localization in image space. I developed DQP for optical-flow localization and a topological memory system with spectral graph-transformer retrieval.
+          </p>
+        </div>
+        <div class="side-meta">
+          <div class="status">Under review</div>
+          <div>WACV 2027</div>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div>
+          <h3>Do Adaptive Image Tokenizers Spend Tokens Where Vision Needs Them?</h3>
+          <p class="authors"><strong>Rishit Dutta</strong></p>
+          <p class="description">
+            An analysis of adaptive image tokenization on short videos, studying what compression preserves, discards, and organizes in latent attention and downstream VLM behavior.
+          </p>
+          <div class="inline-links">
+            <a href="https://github.com/rishitdutta14/KARL-on-Videos" target="_blank" rel="noreferrer">Project</a>
+          </div>
+        </div>
+        <div class="side-meta">
+          <div class="status">Under review</div>
+          <div>NewInML, NeurIPS 2026</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <h2>Research Experience</h2>
+      </div>
+
+      <article class="research-item">
+        <div>
+          <h3>Zero-Shot Vision-Language Navigation</h3>
+          <p class="meta">Advisor: Prof. Tushar Sandhan · IIT Kanpur</p>
+          <p class="description">
+            Proposed FrameNav and studied camera-frame planning, topological memory, and perception-driven localization for continuous vision-language navigation.
+          </p>
+        </div>
+        <div class="side-meta">Aug. 2025 – Present</div>
+      </article>
+
+      <article class="research-item">
+        <div>
+          <h3>Sign Language Tokenization</h3>
+          <p class="meta">Advisor: Prof. Ashutosh Modi · IIT Kanpur</p>
+          <p class="description">
+            Developing variable-length discrete tokenizers for sign video using vector-quantized latent models, alongside large-scale How2Sign and YouTube-ASL preprocessing.
+          </p>
+        </div>
+        <div class="side-meta">May 2026 – Present</div>
+      </article>
+
+      <article class="research-item">
+        <div>
+          <h3>Multimodal Representation Collapse</h3>
+          <p class="meta">Advisor: Prof. Rajesh Hegde · IIT Kanpur</p>
+          <p class="description">
+            Studying multimodal representation collapse using representation-geometry diagnostics and persistent homology, and evaluating EBR as a collapse intervention on Audio-Visual MNIST.
+          </p>
+          <div class="inline-links">
+            <a href="https://github.com/rishitdutta14/multimodal-representation-collapse-study" target="_blank" rel="noreferrer">Code & experiments</a>
+          </div>
+        </div>
+        <div class="side-meta">Apr. 2026 – Present</div>
+      </article>
+
+      <article class="research-item">
+        <div>
+          <h3>Source Apportionment & Air-Quality Forecasting</h3>
+          <p class="meta">Advisor: Prof. Rajesh Hegde · IIT Kanpur</p>
+          <p class="description">
+            Built neural source-apportionment models and a wind-directed LSTM–GAT for PM2.5/PM10 forecasting, using graph structure to encode pollutant transport.
+          </p>
+        </div>
+        <div class="side-meta">Aug. 2025 – Jun. 2026</div>
+      </article>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <h2>Education</h2>
+      </div>
+      <article class="education-item">
+        <div>
+          <h3>Indian Institute of Technology Kanpur</h3>
+          <p class="meta">B.Tech. in Electrical Engineering · CGPA 8.7/10.0</p>
+          <p class="description">
+            Relevant coursework: Data Science & Machine Learning, Large Language Models, Probability & Statistics, Linear Algebra, Differential Equations, Multivariate Calculus.
+          </p>
+        </div>
+        <div class="side-meta">2024 – Present</div>
+      </article>
+    </section>
+
+    <section class="section" id="honors">
+      <div class="section-heading">
+        <h2>Selected Honors</h2>
+      </div>
+      <div class="honors-grid">
+        <div class="honor">
+          <div class="honor-year">2024</div>
+          <div><div class="honor-title">JEE Advanced</div><div class="honor-detail">All India Rank 1020 / 180,200</div></div>
+        </div>
+        <div class="honor">
+          <div class="honor-year">2024</div>
+          <div><div class="honor-title">JEE Main</div><div class="honor-detail">Top 0.3%</div></div>
+        </div>
+        <div class="honor">
+          <div class="honor-year">2024</div>
+          <div><div class="honor-title">NSEP</div><div class="honor-detail">State topper · Top 1%</div></div>
+        </div>
+        <div class="honor">
+          <div class="honor-year">2022</div>
+          <div><div class="honor-title">Indian National Astronomy Olympiad</div><div class="honor-detail">National Top 2%</div></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Rishit Dutta · IIT Kanpur</span>
+      <span> · </span>
+      <a href="mailto:rishitad24@iitk.ac.in">rishitad24@iitk.ac.in</a>
+    </footer>
+  </main>
 </body>
 </html>
